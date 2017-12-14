@@ -1,0 +1,22 @@
+{
+  "name": "envoy-grpc-host-header-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winguse/envoy-grpc-host-header-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winguse/envoy-grpc-host-header-bug/issues"
+  },
+  "homepage": "https://github.com/winguse/envoy-grpc-host-header-bug#readme",
+  "dependencies": {
+    "grpc": "^1.7.3"
+  }
+}

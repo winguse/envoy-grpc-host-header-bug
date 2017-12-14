@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.tubi.envoy-test";
+option java_outer_classname = "TestServerProto";
+option objc_class_prefix = "TS";
+
+package test;
+
+service Ping {
+  rpc Send (Request) returns (Response) {}
+}
+
+message Request {
+  string message = 1;
+}
+
+message Response {
+  string message = 1;
+}
